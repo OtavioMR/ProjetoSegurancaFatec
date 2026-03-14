@@ -1,0 +1,67 @@
+Suporte e Documentação
+
+### Dicas antes de codar
+
+├ alt 195
+─ alt 196
+│ alt 179
+└ alt 192
+
+crtl + D Duplicar a linha
+
+### Estrutura de pastas do projeto EstudarFatec
+
+ EstudarFatec
+ │
+ ├─ src
+ │  └─ br/com/estudarfatec
+ │
+ │     ├─ model
+ │     │ ├─ Disciplina.java
+ │     │ ├─ Tarefa.java
+ │     │ └─ Usuario.java
+ │
+ │     ├─ repository
+ │     │  ├─ TarefaRepository.java
+ │     │  ├─ TarefaRepositoryMemoria.java
+ │     │  └─ DisciplinaRepository.java
+ │
+ │     ├─ service
+ │     │   ├─ TarefaService.java
+ │     │   └─ DisciplinaService.java
+ │
+ │     ├─ controller
+ │     │   ├─ TarefaController.java
+ │     │   └─ DisciplinaController.java
+ │
+ │     ├─ viwe
+ │     │  └─Menu.java
+ │
+ │     ├─ patterns
+ │     │
+ │     │   ├─ strategy
+ │     │   │  ├─ MetodoEstudo.java
+ │     │   │  ├─ MetodoPomodoro.java
+ │     │   │  ├─ MetodoRevisao.java
+ │     │
+ │     │   ├─ factory
+ │     │   │  └─ MetodoEstudoFactory.java
+ │     │   ├ singleton
+ │     │   │ └─ ConfiguracaoSistema.java
+ │
+ │     ├─ util
+ │     │   └─ InputUtil.java
+ │      
+ │     └─ Main.java
+ │
+ └─ test
+    └─ TarefaTeste.java
+	
+	
+	
+  ### Criando as entidades (Model)
+  // Aplicando os conceitos de Programação Orientada a Objetos (POO)
+  // Lembrando que as classes representam um objeto do mundo real
+  ├─ br.com.estudarfatec.model.Tarefa.java
+  
+  // Representa
